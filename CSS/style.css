@@ -1,0 +1,236 @@
+body {
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+.container {
+  width: 1425px;
+  height: 685px;
+  border-radius: 20px;
+  background-color: lightgray;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+}
+.d-flex {
+  display: flex;
+}
+.align-content-center {
+  align-content: center;
+}
+.align-item-center {
+  align-items: center;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.flex-wrap-nowrap {
+  flex-wrap: nowrap;
+}
+h1 {
+  font-size: 44px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+p {
+  color: gray;
+  font-size: 15px;
+}
+.bd-radius-5 {
+  border-radius: 5px;
+  color: white;
+}
+.bd-radius {
+  border-radius: 10px;
+}
+.box-shadow {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.navigation-bar {
+  width: 1325px;
+  background-color: rgb(216, 236, 244);
+  padding: 10px;
+  gap: 90px;
+  margin-top: 15px;
+}
+.navigation-bar a:focus {
+  outline: none;
+  background-color: rgba(40, 40, 198, 0.9);
+  color: white;
+  box-shadow: 0px 0px 8px rgba(40, 40, 198, 0.6);
+  transform: scale(1.05);
+}
+.navigation-bar a:focus,
+.navigation-bar a:active {
+  background-color: rgb(40, 40, 198);
+  color: white;
+}
+.navigation-bar:focus-within a.web-design {
+  color: rgb(57, 57, 156);
+  background-color: rgb(216, 236, 244);
+}
+.navigation-bar a.web-design:focus,
+.navigation-bar a.web-design:active {
+  background-color: rgb(40, 40, 198);
+  color: white;
+}
+.navigation-bar:focus-within .web-design:hover {
+  background-color: rgba(0, 0, 255, 0.2);
+  color: white;
+}
+.navigation-bar a:hover {
+  background-color: rgba(40, 40, 198, 0.8);
+  color: white;
+  transform: scale(1.05);
+}
+a {
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+.pd-10-15 {
+  padding: 10px 15px;
+}
+.web-design {
+  background-color: rgb(40, 40, 198);
+}
+.web-design:hover {
+  background-color: rgba(0, 0, 255, 0.2);
+  color: white;
+}
+.color {
+  color: rgb(57, 57, 156);
+}
+.color:hover {
+  background-color: rgba(0, 0, 255, 0.2);
+  color: white;
+}
+.color:target {
+  background-color: rgb(40, 40, 198);
+  color: white;
+}
+.card {
+  width: 316px;
+  background-color: white;
+  margin-top: 20px;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.card:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+.card:focus {
+  outline: none;
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.25);
+  transform: translateY(-5px) scale(1.02);
+  transition: 0.3s ease-in-out;
+}
+.gap {
+  gap: 28px;
+}
+.img-card {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+.img-card:hover {
+  transform: scale(1.05);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.pd-5-25 {
+  padding: 5px 25px;
+}
+.tag {
+  justify-content: space-between;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.level {
+  color: blueviolet;
+  padding: 3px 10px;
+  border-radius: 5px;
+  background-color: rgb(240, 236, 236);
+  margin-bottom: 8px;
+}
+.level:hover {
+  background-color: blueviolet;
+  color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.color-black {
+  color: black;
+}
+.heading-card {
+  text-align: start;
+  margin-top: 0;
+  margin-left: 25px;
+  margin-right: 10px;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.desc-card {
+  text-align: start;
+  padding: 8px 25px;
+  padding-bottom: 0;
+  margin: 0;
+}
+.star-rating {
+  gap: 15px;
+  padding: 5px 25px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.color-yellow {
+  color: rgb(224, 224, 16);
+}
+.line-card {
+  width: 85%;
+  border: 1px solid whitesmoke;
+}
+.footer-card {
+  justify-content: space-between;
+  padding-top: 0;
+}
+.footer-card i:hover {
+  color: black;
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+}
+.footer-card i:focus {
+  color: black;
+  transform: scale(1.2);
+  transition: 0.2s ease-in-out;
+}
+.color-red {
+  color: red;
+}
+.gap-10 {
+  gap: 10px;
+}
+.fa-table-cells-large {
+  color: orange;
+}
+.color-green {
+  color: green;
+}
+.color-green:hover {
+  background-color: green;
+  color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.level:focus,
+.color-green:focus {
+  outline: none;
+  background-color: blueviolet;
+  color: white;
+  box-shadow: 0px 0px 8px rgba(138, 43, 226, 0.5);
+  transform: scale(1.05);
+}
