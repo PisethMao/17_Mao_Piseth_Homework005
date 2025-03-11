@@ -8,7 +8,7 @@ body {
   width: 1425px;
   height: 685px;
   border-radius: 20px;
-  background-color: lightgray;
+  /* background-color: lightgray; */
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
 }
 .d-flex {
